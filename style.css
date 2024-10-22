@@ -1,0 +1,52 @@
+.carPark{
+    height: 100px;
+    width:100px;
+}
+#pragat{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    gap: 10px;
+    align-items: center;   
+}
+
+#pragat1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    gap: 10px;
+    align-items: center;
+}
+.grid-item{
+    background-color: chartreuse;
+    border: 3px black solid ;
+}
+
+#sksk{
+    padding: 40px;
+}
+
+#but{
+    background-color: green;
+}
+
+#check{
+    padding: 70px;
+}
+
+#abc{
+    background-color:darkgrey;
+}
+
+#button-kp{
+    background-color: darkgrey;
+}
+.k{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+}
+.justify{
+    margin-left: 50px;
+}
